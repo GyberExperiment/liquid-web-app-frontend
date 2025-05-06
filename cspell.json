@@ -1,0 +1,6 @@
+{
+  "version": "0.2",
+  "enabled": false,
+  "language": "en,ru",
+  "ignorePaths": ["**/*"]
+}
