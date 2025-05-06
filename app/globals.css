@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter-VariableFont_opsz,wght.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter-Italic-VariableFont_opsz,wght.ttf") format("truetype");
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Consolas";
+  src: url("/fonts/consolas.ttf") format("truetype");
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #000;
+  color: #fff;
+  line-height: 1.6;
+}
+
+a {
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+}
